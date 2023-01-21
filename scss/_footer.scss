@@ -1,0 +1,22 @@
+.iconos{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+
+    .fa-facebook, .fa-instagram, .fa-whatsapp{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px solid white;
+    padding: 0 20px 0 20px;
+    margin: 5px;
+    &:hover{
+            box-shadow: white;
+        }
+    
+}
+}
+

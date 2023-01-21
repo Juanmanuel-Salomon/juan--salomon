@@ -20,7 +20,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
     .grilla > div:hover {
       transform: scale(1.1); }
   .grilla .latucumanita {
@@ -64,6 +66,36 @@ a {
     .grilla .contacto a {
       color: white;
       text-decoration: none; }
+  .grilla .item_1 {
+    animation-delay: 0.5s; }
+  .grilla .item_2 {
+    animation-delay: 1s; }
+  .grilla .item_3 {
+    animation-delay: 1.5s; }
+  .grilla .item_4 {
+    animation-delay: 2s; }
+  .grilla .item_5 {
+    animation-delay: 2.5s; }
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
 
 .empanadas2 {
   margin-left: 50px;
@@ -93,8 +125,34 @@ a {
     background-position: center; } }
 
 .ubicacion {
-  width: 200px;
+  width: 250px;
   height: 200px; }
 
 .texto {
   color: white; }
+
+.fa-facebook {
+  background-color: #252563; }
+
+.fa-instagram {
+  background-color: #b32f66; }
+
+.fa-whatsapp {
+  background-color: #0bc90b; }
+
+.iconos {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0; }
+  .iconos .fa-facebook, .iconos .fa-instagram, .iconos .fa-whatsapp {
+    color: white;
+    text-decoration: none;
+    border-radius: 2px solid white;
+    padding: 0 20px 0 20px;
+    margin: 5px; }
+    .iconos .fa-facebook:hover, .iconos .fa-instagram:hover, .iconos .fa-whatsapp:hover {
+      box-shadow: white; }

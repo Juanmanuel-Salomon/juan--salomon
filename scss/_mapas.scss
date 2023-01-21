@@ -1,0 +1,11 @@
+$redes: (
+    facebook: rgb(37, 37, 99),
+    instagram:rgb(179, 47, 102),
+    whatsapp: rgb(11, 201, 11),
+);
+
+@each $redes, $color in $redes{
+    .fa-#{$redes}{
+        background-color: $color;
+    }
+}
