@@ -15,16 +15,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-decoration: none;
+
+        &:hover{
+            transform: scale(1.1);
+        }    
+    
     }
     
     .latucumanita{
         grid-area: logo;
         font-size: xx-large;
+        text-decoration: none;
         color: white;
         background-image: url(../assets/images/bg-hace-tu-pedido.jpg);
         background-repeat:space;
         background-size: cover;
-        background-position: center;    
+        background-position: center;  
     
 
     }
@@ -32,25 +39,47 @@
         grid-area: empanadas;
         background-color:rgba(233, 167, 25, 0.724);
         transition: all 1s;
+        text-decoration: none;
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+   
     
     }
     .promociones{
         grid-area: promociones;
         background-color:rgba(233, 167, 25, 0.724);
         transition: all 1s;
+        text-decoration: none;
+        a {
+            color: white;
+            text-decoration: none;
+        }
     
-
     }
     .sucursales{
         grid-area: sucursales;
         background-color:rgb(233, 167, 25);
-        transition: all 1s;
+        transition: all 1s; 
+        text-decoration: none;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    
     
     }
     .contacto{
         grid-area: contacto;
         background-color: rgb(233, 167, 25);
         transition: all 1s;
+        text-decoration: none;
+        a {
+            color: white;
+            text-decoration: none;
+        }
     
     }
 }
