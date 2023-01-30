@@ -37,7 +37,7 @@
     }
     .empanadas{
         grid-area: empanadas;
-        background-color:$colorsundario;
+        background-color:$colorprincipal;
         transition: all 1s;
         text-decoration: none;
         
@@ -51,7 +51,7 @@
     }
     .promociones{
         grid-area: promociones;
-        background-color:$colorsundario;
+        background-color:$colorprincipal;
         transition: all 1s;
         text-decoration: none;
         a {

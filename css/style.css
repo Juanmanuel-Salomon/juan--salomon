@@ -36,7 +36,7 @@ a {
     background-position: center; }
   .grilla .empanadas {
     grid-area: empanadas;
-    background-color: rgba(233, 167, 25, 0.724);
+    background-color: #e9a719;
     transition: all 1s;
     text-decoration: none; }
     .grilla .empanadas a {
@@ -44,7 +44,7 @@ a {
       text-decoration: none; }
   .grilla .promociones {
     grid-area: promociones;
-    background-color: rgba(233, 167, 25, 0.724);
+    background-color: #e9a719;
     transition: all 1s;
     text-decoration: none; }
     .grilla .promociones a {
@@ -132,13 +132,13 @@ a {
   color: white; }
 
 .fa-facebook {
-  background-color: #252563; }
+  background-color: #e9a719; }
 
 .fa-instagram {
-  background-color: #b32f66; }
+  background-color: #e9a719; }
 
 .fa-whatsapp {
-  background-color: #0bc90b; }
+  background-color: #e9a719; }
 
 .iconos {
   background-color: black;
@@ -149,9 +149,9 @@ a {
   justify-content: center;
   padding: 0; }
   .iconos .fa-facebook, .iconos .fa-instagram, .iconos .fa-whatsapp {
-    color: white;
+    color: black;
     text-decoration: none;
-    border-radius: 2px solid white;
+    border-radius: 2px solid black;
     padding: 0 20px 0 20px;
     margin: 5px; }
     .iconos .fa-facebook:hover, .iconos .fa-instagram:hover, .iconos .fa-whatsapp:hover {
